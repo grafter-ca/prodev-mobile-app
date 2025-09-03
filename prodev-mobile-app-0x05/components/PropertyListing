@@ -1,0 +1,24 @@
+import React from 'react';
+
+/**
+ * PropertyListing component
+ * This component will display property data from the provided data file.
+ * Make sure to import your data file and use it within this component.
+ */
+
+// Example: import propertyData from '../data/propertyData';
+
+const PropertyListing = () => {
+    // Example usage:
+    // const properties = propertyData;
+
+    return (
+        <div>
+            {/* Render property listings here */}
+            <h2>Property Listings</h2>
+            {/* Map through properties and display them */}
+        </div>
+    );
+};
+
+export default PropertyListing;
