@@ -9,7 +9,7 @@ import {
   Platform,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { GOOGLELOGO, FACEBOOKLOGO, HEROLOGO, HEROLOGOGREEN } from "@/constants";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
@@ -97,7 +97,7 @@ export default function Join() {
             <Text style={styles.signupTitleText}>Already have an account? </Text>
             <Text
               style={styles.signupSubTitleText}
-              onPress={() => router.push("/sign")}
+              onPress={() => router.push("/signin")}
             >
               Sign in
             </Text>

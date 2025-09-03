@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "@/constants";
-import { styles } from "@/styles/_joinstyle";
+import { styles } from "@/styles/_join";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 
