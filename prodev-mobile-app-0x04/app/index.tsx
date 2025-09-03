@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { styles } from "@/styles/_mainstyle";
-import { BACKGROUNDIMAGE, HEROLOGO, HEROLOGOGREEN } from "@/constants";
+import { BACKGROUNDIMAGE, HEROLOGO } from "@/constants";
 
 export default function Index() {
   const router = useRouter();
